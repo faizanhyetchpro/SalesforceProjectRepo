@@ -3,7 +3,10 @@ public class AccountManager {
     // Method to create a new Account
     public static void createAccount(String name) {
         Account acc = new Account(Name = name);
-        insert acc;
+        if(acc!=null){
+            insert acc;
+        }
+        
     }
     
     // Method to retrieve an Account by its Id
