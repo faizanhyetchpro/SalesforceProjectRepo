@@ -3,6 +3,7 @@ public class AccountManager {
     // Method to create a new Account
     public static void createAccount(String name) {
         Account acc = new Account(Name = name);
+        System.debug('');
         insert acc;
     }
     
